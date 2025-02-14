@@ -57,10 +57,9 @@ export const PunchableImage = () => {
         className={`relative w-full h-full ${isAnimating ? 'animate-punch' : ''}`}
         onClick={handlePunch}
       >
-        {/* Replace the src with your actual image URL */}
         <img
-          src="/placeholder.svg"
-          alt="Punchable face"
+          src="/lovable-uploads/b742979a-7ffb-4919-a083-17e1edfc572a.png"
+          alt="Punchable target"
           className="w-full h-full object-cover"
           draggable={false}
         />
