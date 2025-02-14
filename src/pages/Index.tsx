@@ -6,10 +6,13 @@ const Index = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-50 to-gray-100 p-4">
       <div className="text-center mb-8 animate-fade-in">
         <h1 className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-600">
-          Punch Me!
+          Make Me Happy!
         </h1>
-        <p className="text-gray-600 mb-6">
-          Click anywhere on the image to throw a punch
+        <p className="text-gray-600 mb-2">
+          Feel free to punch me as much as you want!
+        </p>
+        <p className="text-gray-500 text-sm mb-6">
+          Try different punch speeds to see various reactions 🥊
         </p>
       </div>
 
@@ -17,9 +20,20 @@ const Index = () => {
         <PunchableImage />
       </div>
       
-      <p className="text-gray-500 text-sm mt-8 animate-fade-in">
-        Don't worry, no real faces were harmed in the making of this website
-      </p>
+      <div className="text-center mt-8 space-y-2 animate-fade-in">
+        <p className="text-gray-600 font-medium">
+          Punch Intensity Guide:
+        </p>
+        <ul className="text-gray-500 text-sm space-y-1">
+          <li>🥊 Rapid clicks = Super intense punch!</li>
+          <li>⚡️ Quick clicks = Strong punch</li>
+          <li>✨ Normal clicks = Medium punch</li>
+          <li>🤏 Slow clicks = Light tap</li>
+        </ul>
+        <p className="text-gray-400 text-xs mt-4">
+          Don't worry, no real faces were harmed in the making of this website
+        </p>
+      </div>
     </div>
   );
 };
