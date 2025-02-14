@@ -31,7 +31,7 @@ const Index = () => {
           <li>🤏 Slow clicks = Light tap</li>
         </ul>
         <p className="text-gray-400 text-xs mt-4">
-          Don't worry, no real faces were harmed in the making of this website
+          Don't worry, maarle aaram se!! tujhe shaantii hii milegii.
         </p>
       </div>
     </div>
